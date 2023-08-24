@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 
 import "./globals.css";
 import type { Metadata } from "next";
@@ -6,7 +6,6 @@ import { Inter } from "next/font/google";
 import { TheHeader } from "./components/Header";
 import { TheFooter } from "./components/Footer";
 import StyledComponentsRegistry from "./registry";
-import { styled } from "styled-components";
 
 const inter = Inter({ subsets: ["latin"] });
 
