@@ -2,11 +2,12 @@
 import Link from "next/link"
 import Image from "next/image"
 import logo from "../images/svg/logo.svg"
+import style from "../styles/Footer.module.scss"
 
 
 const TheFooter = () => {
     return (
-        <div>
+        <div className={style.footer}>
             <Image src={logo} alt="logo" width={230} height={100}/>
      
             <p>Ремонт телевізорів у місті Дніпро та області до 60 км від межі міста. Гарантія на всі роботи.</p>
