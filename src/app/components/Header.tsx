@@ -1,8 +1,9 @@
 import Link from "next/link"
+import style from "../styles/Header.module.scss"
 
 const TheHeader = () => {
     return (
-        <header>
+        <header className={style.header}>
         <Link href="/">Home</Link>
         <Link href="/about">Про нас</Link>
         <Link href="/price">Послуги та ціни</Link>
