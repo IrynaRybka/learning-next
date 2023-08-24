@@ -1,9 +1,14 @@
+// import type { ImageProps } from "@chakra-ui/next-js"
 import Link from "next/link"
+import Image from "next/image"
+import logo from "../images/svg/logo.svg"
+
 
 const TheFooter = () => {
     return (
         <div>
-            <h1>ЛОГОТИП</h1>
+            <Image src={logo} alt="logo" width={230} height={100}/>
+     
             <p>Ремонт телевізорів у місті Дніпро та області до 60 км від межі міста. Гарантія на всі роботи.</p>
             <h2>Контакти</h2>
             <a href="tel:0637967425">(063) 796-74-25</a>
