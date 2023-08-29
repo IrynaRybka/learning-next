@@ -1,6 +1,6 @@
 import Image from "next/image";
 import master from "../images/img/master.jpg";
-import style from "./About.module.scss"
+import style from "./About.module.scss";
 
 const About = () => {
   return (
