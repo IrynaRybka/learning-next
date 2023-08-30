@@ -1,8 +1,26 @@
 .hero_tagline {
-    color: #B71C1C;
+    color: #F47B7B;
+    font-weight: 800;
+    font-size: 32px;
+  
+
 }
 .hero_container {
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../images/img/background.jpg");
-    background-repeat: no-repeat;
-    width: 1180px;
+    background-color: #303A54;
+    width: 100vw;
+    height: 670px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+ }
+ .hero_description {
+    margin-top: 20px;
+    color: #f2f6fa;
+    font-size: 24px;
+ }
+
+ .hero_list {
+    color: #f2f6fa;
+    font-size: 28px;
+    font-weight: 300;
  }

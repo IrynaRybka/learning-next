@@ -5,9 +5,9 @@ const TheHero = () => {
         
         <div className={style.hero_container}>
         <h1 className={style.hero_tagline}>Ремонт телевізорів та підключення Т2 у місті Дніпро</h1>
-        <p>Швидко, якісно, вигідно, у Вас вдома в зручний для вас час.</p>
+        <p className={style.hero_description}>Швидко, якісно, вигідно, у Вас вдома в зручний для вас час.</p>
 
-        <ul>
+        <ul className={style.hero_list}>
             <li>
             <a href="tel:0637967425">(063) 796-74-25</a>
             <p>WatsApp Viber</p>
