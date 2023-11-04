@@ -9,9 +9,12 @@ theme === 'light' ? setTheme('dark') : setTheme('light')
 }
     console.log(theme);
     return (
+        <>
         <button value={theme} type="button" onClick={toggleTheme}>
         Change theme
         </button>
+        <p>{theme}</p>
+        </>
     )
 }
 
