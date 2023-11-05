@@ -16,11 +16,11 @@ const TheHeader = () => {
         <Image src={logo} alt="logo" width={230} height={100} />
       </Link>
       <Link href="/about">
-        Про мене
+        Послуги
         {/* <Image src={`${sprite}#email`} alt="email" width={40} height={40}/> */}
       </Link>
-      <Link href="/price">Послуги та ціни</Link>
-      <Link href="/guarantees">Гарантії</Link>
+      <Link href="/price">Переваги</Link>
+      <Link href="/guarantees">Про майстра</Link>
       <Link href="/contacts">Контакти</Link>
       <ChangeTheme />
     </header>
